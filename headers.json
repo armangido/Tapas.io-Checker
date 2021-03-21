@@ -1,0 +1,8 @@
+{
+    "accept":"application/panda+json",
+    "Content-Type":"application/json; charset=UTF-8",
+    "x-device-type":"ANDROID",
+    "user-agent":"okhttp 30649; OS Version 6.0; Custom Phone",
+    "accept-encoding":"gzip",
+    "x-device-uuid":"911f927025cef62e"
+}
