@@ -115,8 +115,11 @@ def get_coins(req,proxy):
             return 
 
 def open_file(filename):
-    with open(filename,'r') as a:
-        return [line.strip() for line in a.readlines() if line]
+    try:
+        with open(filename,'r') as a:
+            return [line.strip() for line in a.readlines() if line]
+    except FileNotFoundError:
+        print(f'File not found {filename}')
 
 if __name__ == '__main__':
 
